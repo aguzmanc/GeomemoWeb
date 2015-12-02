@@ -70,7 +70,29 @@ menuitem {
     width: 20%;
 }
 
+/* ------------------------------------------ */
+.section h1 {
+    font-family: "FuturaLight";
+    background-color: #00A049;
+    padding: 23px 0 10px 50px;
+    color: #FFF;
+    font-size: 30px;;
+}
 
+.section ul {
+    margin: 20px 0 30px 100px;
+}
+
+.section ul li {
+    height: 50px;
+    font-family: "HelveticaNeuePro";
+    font-size: 23px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 0 0 0 70px;
+    margin: 20px 0 20px 0;
+    line-height: 50px;
+}
 /* ------------------------------------------ */
 #section_header {
     padding: 60px 0 0 0;
@@ -81,8 +103,36 @@ menuitem {
     width: 100%;
 }
 /* ------------------------------------------ */
+#section_video {
+    text-align: center;
+    background-color: #000;
+    padding: 30px 0;
+}
 /* ------------------------------------------ */
+#section_discover ul li.geo { background-image: url('images/icon_geography.png'); }
+#section_discover ul li.abilities { background-image:url('images/icon_abilities.png'); }
+#section_discover ul li.bolivia { background-image: url('images/icon_bolivia.png'); }
 /* ------------------------------------------ */
+#section_how_to_play {
+    font-family: "FuturaLight";
+    font-size: 23px;
+}
+
+#section_how_to_play img {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 0 50px;
+}
+
+#section_how_to_play h2 {
+    font-family: "FuturaMedium";
+    font-size: 40px;
+    color: #757575;
+    border-color: #00A049;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    margin: 0 0 13px 0;
+}
 /* ------------------------------------------ */
 /* ------------------------------------------ */
 /* ------------------------------------------ */
