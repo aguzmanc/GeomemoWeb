@@ -29,6 +29,19 @@
     font-family: "FuturaLight";
     src: url('fonts/FuturaStd-Light.woff');
 }
+
+
+/* ------------------------------------------ */
+#section_how_to_play img
+{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+
 /* ------------------------------------------ */
 menu {
     margin: 0;
@@ -121,7 +134,18 @@ menuitem {
 #section_how_to_play img {
     width: 200px;
     height: 200px;
-    margin: 0 20px 0 50px;
+    margin: 10px 20px 10px 50px;
+    border-width: 7px;
+    border-color: #00654C;
+    border-style: solid;
+    border-radius: 10px 20px 30px 80px;
+}
+
+#section_how_to_play img:hover, #section_how_to_play img:active {
+    width: 220px;
+    height: 220px;
+    margin: 0px 10px 0px 40px;
+    border-radius: 200px;
 }
 
 #section_how_to_play h2 {
@@ -132,6 +156,11 @@ menuitem {
     border-style: solid;
     border-width: 0 0 3px 0;
     margin: 0 0 13px 0;
+}
+
+#section_how_to_play td {
+    width: 300px;
+    height: 300px;
 }
 /* ------------------------------------------ */
 /* ------------------------------------------ */
